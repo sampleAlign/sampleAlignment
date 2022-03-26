@@ -631,7 +631,7 @@ if __name__ == '__main__':
     print('Start: ', time_start)
     # sample = init_sample(distance_x=distance_x, distance_y=distance_y, detector=500, savepath='rotate_xrf', filepath=r'D:\XRF_rec\8348_filter_mod')
     sample = RotationSample(distance_x=distance_x, distance_y=distance_y, detector=500, savepath='align10',
-                            filepath=r'D:\XRF_rec\8348')
+                            filepath=r'D:\XANES_rec\8348')
     time_init = time.time()
     with open('log.txt', 'a') as f:
         f.write("%s: %s\n" % ("Coarse Init: ", time_init))
